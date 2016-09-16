@@ -26,7 +26,6 @@ var password = "mellon";
 
 var userName = prompt("Enter your name.");
 var passwordCheck;
-CheckPassword();
 
 function CheckPassword() {
     switch (gameLevel) {
@@ -47,3 +46,5 @@ function CheckPassword() {
             break;
     }
 }
+
+CheckPassword();
